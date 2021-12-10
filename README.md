@@ -1,6 +1,5 @@
 # Micro - Machine Learning Edge Computing Framework
 ![Micro-ML](https://img.shields.io/github/issues/beiszhihao/Micro-ML)
-![Micro-ML](https://img.shields.io/github/issues-pr-closed-raw/beiszhihao/Micro-ML)
 ![Micro-ML](https://img.shields.io/github/languages/top/beiszhihao/Micro-ML)
 ![Micro-ML](https://img.shields.io/github/languages/code-size/beiszhihao/Micro-ML)
 ![Micro-ML](https://img.shields.io/github/stars/beiszhihao/Micro-ML?style=social)
