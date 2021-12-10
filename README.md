@@ -1,6 +1,6 @@
 # Micro - Machine Learning Edge Computing Framework
-![Micro-ML](https://shields.io/badge/coverage-100%25-brightgreen)
-![Micro-ML](https://img.shields.io/badge/build-passing-brightgreen)
+![Micro-ML](https://img.shields.io/github/stars/beiszhihao/Micro-ML?style=social)
+![Micro-ML](https://img.shields.io/github/forks/beiszhihao/Micro-ML?style=social)
 ![Micro-ML](https://img.shields.io/badge/Version-1.0.0.0-blue)
 ![Micro-ML](https://img.shields.io/badge/issues-0%20open-yellow)
 ![Micro-ML](https://img.shields.io/badge/bug-0-red)
