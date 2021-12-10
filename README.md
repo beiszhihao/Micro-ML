@@ -88,7 +88,7 @@ Zephyr was chosen because it is a new type of RTOS and a project promoted by Int
 Porting Intel 1source to low-power micro devices through adaptation and porting it to zephyr.
 The AI interface of 1source is well encapsulated at the bottom and several CNN neural algorithms of 1source are transplanted at the same time.
 
-<img alt="ten" height="64" width="64" src="./md_image/1source.png">
+<img alt="ten" height="64" width="64" src="./md_image/tf.jfif">
 
 ## AI model training library
 
