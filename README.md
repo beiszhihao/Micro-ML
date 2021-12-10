@@ -3,7 +3,6 @@
 ![Micro-ML](https://img.shields.io/github/issues-pr-closed-raw/beiszhihao/Micro-ML)
 ![Micro-ML](https://img.shields.io/github/languages/top/beiszhihao/Micro-ML)
 ![Micro-ML](https://img.shields.io/github/languages/code-size/beiszhihao/Micro-ML)
-![Micro-ML](https://img.shields.io/github/v/release/beiszhihao/Micro-ML?include_prereleases)
 ![Micro-ML](https://img.shields.io/github/stars/beiszhihao/Micro-ML?style=social)
 ![Micro-ML](https://img.shields.io/github/forks/beiszhihao/Micro-ML?style=social)
 ![Micro-ML](https://img.shields.io/github/watchers/beiszhihao/Micro-ML?style=social)
