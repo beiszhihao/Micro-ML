@@ -1,10 +1,11 @@
 # Micro - Machine Learning Edge Computing Framework
 ![Micro-ML](https://img.shields.io/github/issues/beiszhihao/Micro-ML)
 ![Micro-ML](https://img.shields.io/github/issues-pr-closed-raw/beiszhihao/Micro-ML)
+![Micro-ML](https://img.shields.io/github/languages/code-size/beiszhihao/Micro-ML)
 ![Micro-ML](https://img.shields.io/github/v/release/beiszhihao/Micro-ML?include_prereleases)
 ![Micro-ML](https://img.shields.io/github/stars/beiszhihao/Micro-ML?style=social)
 ![Micro-ML](https://img.shields.io/github/forks/beiszhihao/Micro-ML?style=social)
-
+![Micro-ML](https://img.shields.io/github/watchers/beiszhihao/Micro-ML?style=social)
 ## Why use this framework?
 
 In the current market development, we can see the birth of a lot of MCU. In the future, more and more MCU frameworks will be born in the market. This is a considerable data, including a lot of embedded and single chip microcomputer practitioners. If we can do AI computing on low-power MCU, it is a great thing. In this way, the cost and power consumption will be greatly reduced, At the same time, a small chip can do speech recognition, image classification and gesture recognition, which is a very interesting thing, and we can use these small modules to assist our equipment, so that our main equipment can do other things and make full use of more resources.
