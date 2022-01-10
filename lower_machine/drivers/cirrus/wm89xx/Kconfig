@@ -1,0 +1,17 @@
+#-----------------------------------------------------------------------
+#| zhihao.zhou@intel.com  | 1/10/2022  -  1:57  PM                     |
+#-----------------------------------------------------------------------
+#| Kconfig                | Config File                                |
+#-----------------------------------------------------------------------
+
+#Config Compile Define
+config WM89XX
+        bool
+        prompt "WM89XX Coder Drivers"
+        default n
+        help
+          This Is CIRRUS WM89XX Coder Drivers
+
+#Config HW Drive
+config I2C
+        default y

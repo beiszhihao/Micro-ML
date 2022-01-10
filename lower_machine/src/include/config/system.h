@@ -17,7 +17,6 @@
 #define VERSION_MAIN			1		/*< It only changes when there is a major update 						>*/
 #define VERSION_CHILD			0		/*< This version number will change when new features are added 				>*/
 #define VERSION_SMALL			0		/*< This version number changes when bugs are fixed orminor changes are made 			>*/
-#define VERSION_GIT			80		/*< How many git commits 									>*/
 #define VERSION_TIME			"11/15/2021"	/*< The time of last release 									>*/
 #define VERSION_MARK			"alpha"		/*< alpha:Internal beta:Test rc:upcoming list:long-term maintenance release:stable 		>*/
 #define VERSION_CODE			"MIG"		/*< Code 											>*/
@@ -30,5 +29,6 @@
 #define KERNEL_DATA_BUFF_SIZE		400 * 1024	/*< Buffer Data											>*/
 #define KERNEL_DATA_ALIG		(4 * 10)	/*< Data Alig											>*/
 #define KERNEL_MODEL_BUFF_ADDR		0		/*< Model addr											>*/
+
 /*> End Guard Ares */
 #endif //__IMAGE_CONFIG_H__ -- END
