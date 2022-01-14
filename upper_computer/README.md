@@ -4,7 +4,7 @@ This is AI computer program of the project, under the support and interactivity,
 # Function introduction
 
 <p align="center">
-  <img alt="Micro-ML Demo" src="./md_image/up.JPG">
+  <img alt="Micro-ML Demo" src="../md_image/up.JPG">
 </p>
 
 # Directory introduction
