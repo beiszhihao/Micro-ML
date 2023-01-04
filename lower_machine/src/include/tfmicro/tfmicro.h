@@ -1,7 +1,7 @@
 /*--------------------------------------------------------------------------
- *| zhihaox.zhou@intel.com | 11/04/2021  -  13:33 PM                       |
+ *| zhihao.a.zhou@outlook.com | 11/04/2021  -  13:33 PM                    |
  *--------------------------------------------------------------------------
- *| tfmicro.h              | Run the wrapper library of the CNN model      |
+ *| tfmicro.h                 | Run the wrapper library of the CNN model   |
  *--------------------------------------------------------------------------*/
 
 /*> Guard Area		*/
