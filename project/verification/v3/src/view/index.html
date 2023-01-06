@@ -1,0 +1,122 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <script src="js/index.js" type="text/javascript" charset="utf-8"></script>
+    <title>hello word</title>
+</head>
+
+<body id = "theme">
+    <div id = "title">
+        <h1 id = "title-txt">Embedded AI FDK</h1>
+        <button id = "title-close" onclick="close_window()"></button>
+        <button id = "title-max" onclick="max_window()"></button>
+        <button id = "title-min" onclick="min_window()"></button>
+    </div>
+    <canvas id="canvas" width="640" height="480"></canvas>
+    <div id = "box_main">
+        <div class = "box" style="width: 200px; height: 220px; left:20px; right: 20px; top:60px;">
+            <div id = "box_title">
+                <h1 id = "box_txt">Connect Config</h1>
+            </div>
+            <h1 id = "label" style="left: 30px; top:35px;">Ip</h1>
+            <input id = "ip1" type="text" value = "10.239.134.77" onkeyup="this.value=this.value.replace(/[^0-9\.]/g,'')" class="text" form="form1" style="width:150px; top: 65px; left: 24px;"/>
+            <h1 id = "label" style="left: 30px; top: 85px;">Port</h1>
+            <input id = 'port1' type="text" onkeyup = "value=value.replace(/[^\d]/g, '')" class="text" form="form1" style="width:150px; top: 113px; left: 24px;"/>
+            <h1 id = "label" style="left: 30px; top:133px;">Agreement</h1>
+            <select id = "se" class = "combobox" style="width:150px; top: 163px; left: 24px;">
+                <option class = "combobox-sel">V1</option>
+            </select>
+            <button id = 'connect' class = "e-button" style = "top: 190px; left: 65px;" onclick = "connect_get()">Connect</button>
+        </div>
+        
+        <div class = "box" style="width: 200px; height: 200px; left:20px; right: 20px; top: 300px;">
+            <div id = "box_title">
+                <h1 id = "box_txt">Method Config</h1>
+            </div>
+            <button id = "bt_image" class = "rsel" style="left: 44px; top: 40px;  background-color: rgba(255, 255, 255, 0.5);"  onclick = "show_image()">Image</button>
+            <button id = "bt_camera" class = "rsel" style="left: 100px; top: 40px;" onclick = "show_camera()">Camera</button>
+            <div id = "image" class = "rsel-box" style="top: 68px; width: 200; z-index: 4;">
+                <h1 id = "label" style="left: 30px; top:90px;">Image File</h1>
+                <input id = "image_path" type = "text" class = "text" form = "form1" style = "width:150px; top: 120px; left: 24px;"/>
+                <button class = "e-button" style = "top: 150px; left: 65px;" onclick = "open_file()">Select</button>
+            </div>
+            <div id = "camera" class = "rsel-box" style="top: 68px; width: 200; opacity: 0;">
+                <h1 id = "label" style="left: 30px; top:90px;">Camera Number</h1>
+                <select id = "se_c" class = "combobox" style = "width:150px; top: 120px; left: 24px;">
+                </select>
+                <button class = "e-button" style = "top: 150px; left: 57px;" onclick = "retrieval_camera()" >Retrieval</button>
+            </div>
+        </div>
+        
+        <div class = "box" style="backdrop-filter: blur(0px); border-width: 0px;  box-shadow: none; width: 675px; height: 500px; left:230px; right: 20px; top: 60px;">
+            <div>
+            <video id="video" autoplay style="position: absolute; left: 150px; top: 20px; width: 400px; height: 180px; opacity: 0;"></video>
+            <h1 id = 'ico1' class = "ico_png" style="left: 160px; top:10px; width: 400px; height: 180px;"></h1>
+            <div id = 'bx' class = "bobox" style="left: 160px; top: 10px;width: 0px; height: 0px; opacity:0;"></div>
+            </div>
+            <h1 id = "roi" class = "label_c" style="width: 100%; text-align: center; left: 0px; top: 230px; font-size: 20px;">Embedded AI FDK</h1>
+            <h1 id = "mx" class = "label_c" style="width: 100%; text-align: center; left: 0px; top: 260px;">Solution based on oneAPI for Intel Always-On Processor which support X86, ARM, ARC and RISCV.</h1>
+            <h1 id = "dx" class = "label_c" style="width: 100%; text-align: center; left: 0px; top: 300px;">@ Intel - CSG</h1>
+            <button id = "st" class = "e-button" style = "top: 353px; left: 46%; width: 50px; height: 20px;" onclick = "start()">Start</button>
+        </div>
+
+        <div class = "box" style="width: 265px; height: 440px; left:915px; top:60px; z-index: 3;">
+            <div id = "box_title">
+                <h1 id = "box_txt">Runtime Info</h1>
+            </div>
+            <div id = "runtime" style="width: 280px; height: 240px;  position: absolute; top: 10px; left: 4px;"></div>
+            <h1 id = "runt" class = "label_c" style="left: 0px; top:35px; text-align: center; width: 100%;">Average time consumption: 0 ms</h1>
+            <h1 id = "label" style="left: 0px; top:205px; text-align: center; width: 100%;">CPU Info</h1>
+            <h1 id = "cpuinfo" class = "label_class" style="left: 10px; top:225px; font-size: 12px;"></h1>
+            <h1 id = "label" style="left: 0px; top:265px; text-align: center; width: 100%;">Upload Model</h1>
+            <h1 id = "label" style="left: 55px; top:295px;">Model File</h1>
+            <input id = "model_file" type = "text" class = "text" form = "form1" style = "width:150px; top: 323px; left: 44px;"/>
+            <button class = "e-button" style = "top: 323px; left: 200px;" onclick = "select_model()">...</button>
+            <button class = "e-button" style = "top: 353px; left: 100px;" onclick = "upload_model()">Upload</button>
+        </div>
+        </div>
+        
+        <script type="text/javascript">
+            init_echarts();
+        </script>
+
+        <div class = "status" style = "left: 20px; top: 510px; width: 1160px; height: 20px;">
+        <div class = "status-item" style = "width: 50%;height: 17px;">
+            <h1 id = "status" class = "label_class" style = "width: 100%; left: 2px; font-size: 12px; top: -5px;">There is currently no operation</h1>
+        </div>
+        <h1 id = "time1" class = "label_class" style = "width: 100%; left: 94%; font-size: 12px; top: -5px;">xx:xx:xx xx</h1>
+        </div>
+        <script type="text/javascript">
+            var int=self.setInterval("clock()",100);
+
+            function clock()
+            {
+                var d=new Date();
+                var t=d.toLocaleTimeString();
+                document.getElementById("time1").innerText = t;
+            }
+        </script>
+        
+        <div id = "cm" class = "mask" style = "left: 0px; top: 0px;"></div>
+
+        <div id = "ms" class = "messagebox" style = "width: 200px; height: 60px; top: 150px; left: 480px;">
+            <h1 id = "m1" class = "label_class" style = "width: 100%; text-align: center; left: 2px; font-size: 12px; top: 5px;">There is currently no operation</h1>
+            <button class = "e-button" style = "top: 65%; left: 80%;" onclick = "messag_bt()">OK</button>
+        </div>
+
+        <div id = "ld" class = "wait" style = "height: 40px; width: 40px; top: 260px; left: 540px;">
+                <div class="load-7">
+                    <div class="square-holder">
+                        <div class="square"></div>
+                    </div>
+                </div>
+        </div>
+
+    </div>
+    
+</body>
+
+</html>

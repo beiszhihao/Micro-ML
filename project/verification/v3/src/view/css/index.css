@@ -1,0 +1,354 @@
+#theme {
+    overflow : hidden;
+    background-color: rgb(30, 30, 30);
+    background-position: center; 
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    background-image: url("../img/test.jpg");
+}
+
+#title {
+    width: 100%;
+    height:20px;
+    top: 0;
+    left: 0;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    overflow : hidden;
+    -webkit-app-region: drag;
+}
+
+
+#title-txt{
+    font-size: 12;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    text-shadow: 0 0 7px rgb(83, 182, 243);
+    font-family: Roboto;
+}
+
+#title-ico {
+    top: 1px;
+    width: 20px;
+    height: 20px;
+    font-size: 10;
+    color: rgb(255, 255, 255);
+    background-image: url("../img/ico.png");
+    background-size: 100% 100%;
+}
+
+#title-close {
+    right: 3px;
+    top:3px;
+    width: 12px;
+    height: 12px;;
+    text-align: right;
+    position: fixed;
+    border-radius: 50%;
+    border:0;
+    background-color: rgba(255, 0, 0, 0.7);
+    transition: all 0.7s;
+    -webkit-app-region: no-drag;
+
+}
+
+#title-close:hover {
+
+    background-color: rgba(255, 0, 0, 1);
+}
+
+#title-close:active {
+    
+    background-color: rgba(255, 0, 0, 0.7);
+
+}
+
+#title-max {
+    right: 23px;
+    top:3px;
+    width: 12px;
+    height: 12px;;
+    text-align: right;
+    position: fixed;
+    border-radius: 50%;
+    border:0;
+    background-color: rgba(244, 233, 77, 0.7);
+    transition: all 0.7s;
+    -webkit-app-region: no-drag;
+
+}
+
+#title-max:hover {
+
+    background-color: rgba(244, 233, 77, 1);
+}
+
+#title-max:active {
+    
+    background-color: rgba(244, 233, 77, 0.7);
+
+}
+
+#title-min {
+    right: 43px;
+    top:3px;
+    width: 12px;
+    height: 12px;;
+    text-align: right;
+    position: fixed;
+    border-radius: 50%;
+    border:0;
+    background-color: rgba(85, 67, 249, 0.7);
+    transition: all 0.7s;
+    -webkit-app-region: no-drag;
+
+}
+
+#title-min:hover {
+
+    background-color: rgba(85, 67, 249, 1);
+}
+
+#title-min:active {
+    
+    background-color: rgba(85, 67, 249, 0.7);
+
+}
+
+#box_main {
+    width: 98%;
+    height: 92%;
+    top: 30px;
+    position: fixed;
+    border-radius: 5px;
+    border-width: 1px;
+}
+
+#box_title {
+    width: 100%;
+    height: 20px;
+    border-color: rgba(255, 255, 255, 0.7);
+    border-bottom-style: dotted;
+    border-width:2px;
+}
+
+#box_txt {
+    top: 0px;
+    font-size: 12;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    text-shadow: 0 0 7px rgb(83, 182, 243);
+    vertical-align: text-top;
+    font-family: Roboto;
+}
+
+.box {
+    border-style: solid solid solid solid;
+    border-color: rgba(255, 255, 255, 0.7);
+    border-width:1px;
+    position: fixed;
+    backdrop-filter: blur(3px);
+    box-shadow: 0px 0px 5px #000;
+}
+
+.text {
+    border: 1px solid rgb(255, 255, 255);
+    background-color: transparent;
+    transition: all 0.7s;
+    color: rgb(255, 255, 255);
+    position: fixed;
+    text-align: center;
+    font-family: Roboto;
+}
+
+.text:hover {
+
+    border: 1px solid rgb(69, 169, 250);
+}
+
+.text:focus {
+
+   outline: 1px solid rgb(69, 169, 250);
+}
+
+#label {
+    font-size: 12;
+    color: rgb(255, 255, 255);
+    text-shadow: 0 0 7px rgb(83, 182, 243);
+    vertical-align: text-top;
+    position: fixed;
+    font-family: Roboto;
+
+}
+.label_c {
+    font-size: 12;
+    color: rgb(255, 255, 255);
+    text-shadow: 0 0 7px rgb(83, 182, 243);
+    vertical-align: text-top;
+    position: fixed;
+    font-family: Roboto;
+
+}
+
+.combobox {
+
+    background-color: transparent;
+    color: rgb(255, 255, 255);
+    transition: all 0.7s;
+    position: fixed;
+    border: 1px solid rgb(255, 255, 255);
+    font-family: Roboto;
+    text-align: center;
+
+}
+
+.combobox:hover {
+
+    border: 1px solid rgb(69, 169, 250);
+
+}
+
+.combobox:focus {
+
+    outline: 1px solid rgb(69, 169, 250);
+ }
+
+ .combobox-sel {
+
+    background-color:#3678c4;
+
+ }
+ 
+ .rsel {
+
+    background-color: transparent;
+    font-family: Roboto;
+    color: rgb(255, 255, 255);
+    border: 1px solid rgb(255, 255, 255);
+    transition: all 0.7s;
+    position: fixed;
+
+ }
+
+ .rsel:hover {
+
+    cursor: pointer; 
+ }
+
+ .rsel:active {
+    
+    background-color: rgba(86, 83, 83, 0.7);
+}
+
+.rsel-box {
+    border-top-style: solid;
+    border-top-color: #ffffff;
+    border-top-width: 1px;
+    position: fixed;
+    transition: all 0.7s;
+
+}
+
+
+.e-button {
+    background: rgba(255, 255, 255, 0.3);
+    transition: all 0.7s;
+    position: fixed;
+    color: #ffffff;
+    border: none;
+}
+
+.e-button:hover {
+    background: rgba(41, 148, 248, 0.3);
+}
+
+.e-button:active {
+    
+    background: rgba(13, 48, 80, 0.3);
+
+}
+
+#box-tr {
+    /*
+    border-style: solid solid solid solid;
+    border-color: rgba(255, 255, 255, 0.7);
+    border-width:1px;
+    */
+    position: fixed;
+}
+
+#label_diy {
+    color: rgb(255, 255, 255);
+    text-shadow: 0 0 7px rgb(83, 182, 243);
+    vertical-align: text-top;
+    position: absolute;
+    font-family: Roboto;
+
+}
+
+.ico_png {
+    background-image: url(../img/ico.png);
+    position: absolute;
+    background-size: 100% 100%;
+}
+
+.status {
+    border-style: solid solid solid solid;
+    border-color: rgba(255, 255, 255, 0.7);
+    border-width:1px;
+    position: fixed;
+    backdrop-filter: blur(3px);
+    box-shadow: 0px 0px 5px #000;
+}
+
+.status-item {
+    border-style: dashed dashed dashed dashed;
+    border-right-color: #ffffff;
+    border-width:1px;
+}
+
+.label_class {
+    color: rgb(255, 255, 255);
+    text-shadow: 0 0 7px rgb(83, 182, 243);
+    font-family: Roboto;
+    position: fixed;
+}
+
+.messagebox {
+    position: fixed;
+    backdrop-filter: blur(3px);
+    box-shadow: 0px 0px 10px #000;
+    opacity: 0;
+    transition: all 0.7s;
+    border-style: dashed dashed dashed dashed;
+    border-color: rgba(255, 255, 255, 0.7);
+    border-width:1px;
+
+}
+
+.mask {
+    position: fixed;
+    background: #000;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    pointer-events:none;
+    transition: all 0.7s;
+
+}
+
+.wait {
+    position: fixed;
+    transition: all 0.7s;
+    opacity: 0;
+    transition: all 0.7s;
+}
+
+.bobox {
+    border-style: solid solid solid solid;
+    border-color: rgb(255, 0, 0);
+    border-width:1px;
+    position: absolute;
+}

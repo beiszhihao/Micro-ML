@@ -1,0 +1,131 @@
+init/main.o: init/main.c /usr/include/stdc-predef.h \
+ /usr/lib/gcc/x86_64-linux-gnu/9/include/stdarg.h \
+ /home/zhihao/ai/Micro-ML/os/tsos/linux/include/asm/system.h \
+ /home/zhihao/ai/Micro-ML/os/tsos/linux/include/linux/segment.h \
+ /home/zhihao/ai/Micro-ML/os/tsos/linux/include/asm/io.h \
+ /home/zhihao/ai/Micro-ML/os/tsos/linux/include/linux/types.h \
+ /home/zhihao/ai/Micro-ML/os/tsos/linux/include/linux/fcntl.h \
+ /home/zhihao/ai/Micro-ML/os/tsos/linux/include/linux/config.h \
+ /home/zhihao/ai/Micro-ML/os/tsos/linux/include/linux/autoconf.h \
+ /home/zhihao/ai/Micro-ML/os/tsos/linux/include/linux/sched.h \
+ /home/zhihao/ai/Micro-ML/os/tsos/linux/include/linux/tasks.h \
+ /home/zhihao/ai/Micro-ML/os/tsos/linux/include/linux/head.h \
+ /home/zhihao/ai/Micro-ML/os/tsos/linux/include/linux/fs.h \
+ /home/zhihao/ai/Micro-ML/os/tsos/linux/include/linux/linkage.h \
+ /home/zhihao/ai/Micro-ML/os/tsos/linux/include/linux/limits.h \
+ /home/zhihao/ai/Micro-ML/os/tsos/linux/include/linux/wait.h \
+ /home/zhihao/ai/Micro-ML/os/tsos/linux/include/linux/dirent.h \
+ /home/zhihao/ai/Micro-ML/os/tsos/linux/include/linux/vfs.h \
+ /home/zhihao/ai/Micro-ML/os/tsos/linux/include/linux/net.h \
+ /home/zhihao/ai/Micro-ML/os/tsos/linux/include/linux/socket.h \
+ /home/zhihao/ai/Micro-ML/os/tsos/linux/include/linux/sockios.h \
+ /home/zhihao/ai/Micro-ML/os/tsos/linux/include/linux/pipe_fs_i.h \
+ /home/zhihao/ai/Micro-ML/os/tsos/linux/include/linux/minix_fs_i.h \
+ /home/zhihao/ai/Micro-ML/os/tsos/linux/include/linux/ext_fs_i.h \
+ /home/zhihao/ai/Micro-ML/os/tsos/linux/include/linux/ext2_fs_i.h \
+ /home/zhihao/ai/Micro-ML/os/tsos/linux/include/linux/hpfs_fs_i.h \
+ /home/zhihao/ai/Micro-ML/os/tsos/linux/include/linux/msdos_fs_i.h \
+ /home/zhihao/ai/Micro-ML/os/tsos/linux/include/linux/iso_fs_i.h \
+ /home/zhihao/ai/Micro-ML/os/tsos/linux/include/linux/nfs_fs_i.h \
+ /home/zhihao/ai/Micro-ML/os/tsos/linux/include/linux/nfs.h \
+ /home/zhihao/ai/Micro-ML/os/tsos/linux/include/linux/xia_fs_i.h \
+ /home/zhihao/ai/Micro-ML/os/tsos/linux/include/linux/sysv_fs_i.h \
+ /home/zhihao/ai/Micro-ML/os/tsos/linux/include/linux/minix_fs_sb.h \
+ /home/zhihao/ai/Micro-ML/os/tsos/linux/include/linux/ext_fs_sb.h \
+ /home/zhihao/ai/Micro-ML/os/tsos/linux/include/linux/ext2_fs_sb.h \
+ /home/zhihao/ai/Micro-ML/os/tsos/linux/include/linux/hpfs_fs_sb.h \
+ /home/zhihao/ai/Micro-ML/os/tsos/linux/include/linux/msdos_fs_sb.h \
+ /home/zhihao/ai/Micro-ML/os/tsos/linux/include/linux/iso_fs_sb.h \
+ /home/zhihao/ai/Micro-ML/os/tsos/linux/include/linux/nfs_fs_sb.h \
+ /home/zhihao/ai/Micro-ML/os/tsos/linux/include/linux/xia_fs_sb.h \
+ /home/zhihao/ai/Micro-ML/os/tsos/linux/include/linux/sysv_fs_sb.h \
+ /home/zhihao/ai/Micro-ML/os/tsos/linux/include/linux/mm.h \
+ /home/zhihao/ai/Micro-ML/os/tsos/linux/include/linux/page.h \
+ /home/zhihao/ai/Micro-ML/os/tsos/linux/include/linux/errno.h \
+ /home/zhihao/ai/Micro-ML/os/tsos/linux/include/linux/kernel.h \
+ /home/zhihao/ai/Micro-ML/os/tsos/linux/include/linux/signal.h \
+ /home/zhihao/ai/Micro-ML/os/tsos/linux/include/linux/time.h \
+ /home/zhihao/ai/Micro-ML/os/tsos/linux/include/linux/param.h \
+ /home/zhihao/ai/Micro-ML/os/tsos/linux/include/linux/resource.h \
+ /home/zhihao/ai/Micro-ML/os/tsos/linux/include/linux/vm86.h \
+ /home/zhihao/ai/Micro-ML/os/tsos/linux/include/linux/math_emu.h \
+ /home/zhihao/ai/Micro-ML/os/tsos/linux/include/linux/tty.h \
+ /home/zhihao/ai/Micro-ML/os/tsos/linux/include/linux/termios.h \
+ /home/zhihao/ai/Micro-ML/os/tsos/linux/include/linux/unistd.h \
+ /home/zhihao/ai/Micro-ML/os/tsos/linux/include/linux/string.h \
+ /home/zhihao/ai/Micro-ML/os/tsos/linux/include/linux/timer.h \
+ /home/zhihao/ai/Micro-ML/os/tsos/linux/include/linux/ctype.h \
+ /home/zhihao/ai/Micro-ML/os/tsos/linux/include/linux/delay.h \
+ /home/zhihao/ai/Micro-ML/os/tsos/linux/include/linux/utsname.h \
+ /home/zhihao/ai/Micro-ML/os/tsos/linux/include/linux/ioport.h
+tools/build.o: tools/build.c /usr/include/stdc-predef.h /usr/include/stdio.h \
+ /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
+ /usr/include/features.h /usr/include/x86_64-linux-gnu/sys/cdefs.h \
+ /usr/include/x86_64-linux-gnu/bits/wordsize.h \
+ /usr/include/x86_64-linux-gnu/bits/long-double.h \
+ /usr/include/x86_64-linux-gnu/gnu/stubs.h \
+ /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
+ /usr/lib/gcc/x86_64-linux-gnu/9/include/stddef.h \
+ /usr/lib/gcc/x86_64-linux-gnu/9/include/stdarg.h \
+ /usr/include/x86_64-linux-gnu/bits/types.h \
+ /usr/include/x86_64-linux-gnu/bits/timesize.h \
+ /usr/include/x86_64-linux-gnu/bits/typesizes.h \
+ /usr/include/x86_64-linux-gnu/bits/time64.h \
+ /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h \
+ /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
+ /usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h \
+ /usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
+ /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
+ /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
+ /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
+ /usr/include/x86_64-linux-gnu/bits/sys_errlist.h /usr/include/string.h \
+ /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
+ /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
+ /usr/include/strings.h /usr/include/stdlib.h \
+ /usr/include/x86_64-linux-gnu/bits/waitflags.h \
+ /usr/include/x86_64-linux-gnu/bits/waitstatus.h \
+ /usr/include/x86_64-linux-gnu/bits/floatn.h \
+ /usr/include/x86_64-linux-gnu/bits/floatn-common.h \
+ /usr/include/x86_64-linux-gnu/sys/types.h \
+ /usr/include/x86_64-linux-gnu/bits/types/clock_t.h \
+ /usr/include/x86_64-linux-gnu/bits/types/clockid_t.h \
+ /usr/include/x86_64-linux-gnu/bits/types/time_t.h \
+ /usr/include/x86_64-linux-gnu/bits/types/timer_t.h \
+ /usr/include/x86_64-linux-gnu/bits/stdint-intn.h /usr/include/endian.h \
+ /usr/include/x86_64-linux-gnu/bits/endian.h \
+ /usr/include/x86_64-linux-gnu/bits/endianness.h \
+ /usr/include/x86_64-linux-gnu/bits/byteswap.h \
+ /usr/include/x86_64-linux-gnu/bits/uintn-identity.h \
+ /usr/include/x86_64-linux-gnu/sys/select.h \
+ /usr/include/x86_64-linux-gnu/bits/select.h \
+ /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h \
+ /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h \
+ /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h \
+ /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h \
+ /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
+ /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h \
+ /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
+ /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
+ /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h /usr/include/alloca.h \
+ /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
+ /usr/include/x86_64-linux-gnu/sys/stat.h \
+ /usr/include/x86_64-linux-gnu/bits/stat.h \
+ /usr/include/x86_64-linux-gnu/sys/sysmacros.h \
+ /usr/include/x86_64-linux-gnu/bits/sysmacros.h /usr/include/unistd.h \
+ /usr/include/x86_64-linux-gnu/bits/posix_opt.h \
+ /usr/include/x86_64-linux-gnu/bits/environments.h \
+ /usr/include/x86_64-linux-gnu/bits/confname.h \
+ /usr/include/x86_64-linux-gnu/bits/getopt_posix.h \
+ /usr/include/x86_64-linux-gnu/bits/getopt_core.h \
+ /usr/include/x86_64-linux-gnu/bits/unistd_ext.h /usr/include/fcntl.h \
+ /usr/include/x86_64-linux-gnu/bits/fcntl.h \
+ /usr/include/x86_64-linux-gnu/bits/fcntl-linux.h \
+ /home/zhihao/ai/Micro-ML/os/tsos/linux/include/linux/config.h \
+ /home/zhihao/ai/Micro-ML/os/tsos/linux/include/linux/autoconf.h \
+ /home/zhihao/ai/Micro-ML/os/tsos/linux/include/linux/a.out.h \
+ /home/zhihao/ai/Micro-ML/os/tsos/linux/include/linux/page.h
+tools/version.o: tools/version.c /usr/include/stdc-predef.h \
+ /home/zhihao/ai/Micro-ML/os/tsos/linux/include/linux/config.h \
+ /home/zhihao/ai/Micro-ML/os/tsos/linux/include/linux/autoconf.h \
+ /home/zhihao/ai/Micro-ML/os/tsos/linux/include/linux/utsname.h \
+ tools/./version.h

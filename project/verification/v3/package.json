@@ -1,0 +1,16 @@
+{
+  "name": "AI",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/main.js",
+  "scripts": {
+    "start": "npx electron ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "echarts": "^5.4.1",
+    "electron": "^22.0.0"
+  }
+}
